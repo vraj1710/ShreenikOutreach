@@ -1,0 +1,129 @@
+
+.heading h2{
+    color: #f7327a;
+    font-weight: 600;
+}
+.main_para{
+    font-size: larger;
+    font-weight: 400;
+}
+.paragraph{
+    text-align: justify;
+    font-weight: 300;
+    opacity: 0.9;
+}
+.cardcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.cardcontainer .card{
+
+    height: fit-content;
+
+    width: 85%;
+    border: none;
+}
+.card img{
+   /* padding: 5%; */
+   /* height: 80%;
+   width: 80%;
+   margin: 0 5% 0 5%; */
+   height: 254px !important;
+   width: 80% !important;
+   
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.row{
+    /* align-items: center; */
+    height: 100%;
+}
+.image{
+   background-color: blanchedalmond;
+   width: 30%;
+   height: 100%;
+}
+.card-text{
+    font-weight: 300;
+    opacity: 0.9;
+    text-align: justify;
+}
+.card-text span {
+    padding-right: 10px;
+}
+.card-text span i,.fas{
+    color: #f7327a;
+    font-size: 1.3rem;
+}
+/* .contact_div{
+    background-color: rgb(182, 181, 181);
+    width: 60%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 20%;
+    height: 200px;
+} */
+/* .contact_div .left .image_hold{
+   text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8rem;
+}
+.contact_div .left i{
+    font-size: 5vh !important;
+    padding: 3%;
+  
+} */
+.contact_div{
+    display: flex;
+}
+
+.contact-info{
+    /* background-color: rgb(207, 212, 212); */
+  
+    background-attachment: fixed;
+    display: flex;
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+    justify-content: center;
+}
+.contact-info span{
+    display: block;
+}
+.contact-info div{
+    margin: 0.8rem 0;
+    padding: 1rem;
+}
+.contact-info span .fas{
+    font-size: 2rem;
+    padding-bottom: 0.9rem;
+    color: #f7327a;
+}
+.contact-info div span:nth-child(2){
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.contact-info .text{
+    padding-top: 0.4rem;
+}
+
+@media (max-width:1000px){
+   .card img{
+    width: 100% !important;
+   }
+ }
+ @media (max-width:768px){
+    .card img{
+     width: 80% !important;
+    }
+  }
